@@ -1,0 +1,4 @@
+Representasi,n sampel,n PC,k terbaik,Silhouette,DBI
+A. Titik per titik (baseline),86400,8,2,0.1656,2.0193
+B. Rata-rata jendela 5 menit,1440,8,2,0.1738,1.9553
+C. Usulan: mean+std+slope jendela 5 menit,1440,26,2,0.2595,2.408
