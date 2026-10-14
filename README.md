@@ -1,4 +1,4 @@
-# Klasterisasi Deret Waktu Multivariat 29 Sensor Boiler Batu Bara Industri
+# Klasterisasi Time Series Multivariat 29 Sensor Boiler Batu Bara Menggunakan K-Means Berbasis Non-overlapping Windows
 
 Proyek UTS Data Mining 2026, Program Studi S1 Teknik Informatika.
 
@@ -7,11 +7,13 @@ Sebanyak 29 sensor proses dipakai sebagai fitur, dan suhu uap keluaran boiler (T
 
 ## Tim
 
-- Hamzah Abdillah Gabriela
-- Renadi Wilantara
-- Muhammad Rizky Khatami
-- Khalit Putra Afana
-- Muhammad Fathin Raihan
+| Nama | NPM | Email |
+|------|-----|-------|
+| Hamzah Abdillah Gabriela     | 140810240029    | hamzah24001@mail.unpad.ac.id      |
+| Muhammad Rizky Khatami     | 140810240073    | muhammad24207@mail.unpad.ac.id      |
+| Khalit Putra Afana     | 140810240007    | khalit24001@mail.unpad.ac.id        |
+| Muhammad Fathin Raihan     | 140810240026    | muhammad24028@mail.unpad.ac.id      |
+| Renadi Wilantara     | 140810240061    | renadi24001@mail.unpad.ac.id      |
 
 ## Dataset
 
@@ -50,11 +52,11 @@ UTS_DataMining_EDA_Klasterisasi.ipynb   notebook EDA dan klasterisasi (sudah ber
 xinan_uncompleted_data.csv              dataset mentah
 figures/                                gambar hasil notebook dan gambar paper
 outputs/                                tabel hasil (CSV)
-paper/                                  paper format IEEE (FINAL dan varian ringkas 8 halaman)
+paper/                                  paper final format IEEE
 literatur/                              diagram alir PRISMA dan tabel gap analysis 8 paper rujukan
 ```
 
-## Menjalankan
+## Running
 
 Lokal: buka notebook dengan Python 3.10 atau lebih baru. Paket yang dibutuhkan adalah pandas, numpy, scikit-learn, dan matplotlib.
 Jalankan semua sel; gambar dan tabel akan ditulis ulang ke `figures/` dan `outputs/`.
